@@ -76,7 +76,7 @@ lazy val playjson = project
   .settings(
     name := "Scala.js pickling play-json",
     resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/maven-releases/",
-    libraryDependencies += "com.typesafe.play" %% "play-json" % "2.3.0"
+    libraryDependencies += "com.typesafe.play" %% "play-json" % "2.4.0-M3"
   )
   .dependsOn(corejvm)
 
